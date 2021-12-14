@@ -15,7 +15,7 @@ from bot.plugins.display.display_progress import progress
 async def qr_decode(client, message):
     decode_text = await client.send_message(
         chat_id=message.chat.id,
-        text="<b>Processing your request...</b>",
+        text="<b>جاري كشف الباركود...</b>",
         reply_to_message_id=message.message_id,
     )
     dl_location = str(message.from_user.id)
@@ -26,14 +26,14 @@ async def qr_decode(client, message):
             file_name=dl_location + '.png',
             progress=progress,
             progress_args=(
-                "Trying to download....",
+                "جاري التحميل ....",
                 decode_text
             )
         )
     except Exception as error:
         print(error)
     await decode_text.edit(
-        text="Decoding....."
+        text="جاري تحضير الباسورد....."
     )
     try:
         qr_text_data = decode(Image.open(im_dowload))
