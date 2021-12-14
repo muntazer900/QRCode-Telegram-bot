@@ -5,5 +5,7 @@
 # Thank you https://github.com/pyrogram/pyrogram :-)
 
 class Msg:
-    start = "\n<b>لنبدء العمل , الان ارسل لي صورة الباركود لكي اقوم باستخراج كلمة مرور الوايفاي , مطور البوت @IIlIIIIIll</b>"
-    error = "حدث خطاء غير  متوقع\n{error} \nاتصل بمطوري @IIlIIIIIll"
+    source = "\nمطور البوت @IIlIIIIIll "
+    start = "\n<b>الان ارسل لي صورة كود باركود لكي استخرج لك كلمة المرور @IIlIIIIIll</b>"
+    error = "حدث خطاء\n{error} \nاتصل بمطور البوت @IIlIIIIIll"
+    help = "يمكنك عن طريق هذه البوت استخراج كلمة مرور الوايفاي "
