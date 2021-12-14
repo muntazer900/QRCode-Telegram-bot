@@ -5,7 +5,7 @@
 # Thank you https://github.com/pyrogram/pyrogram :-)
 
 class Msg:
-    source = "\nsource:https://github.com/AbhijithNT/QRCode-Telegram-bot"
-    start = "\n<b>This is a QR code generator bot by @IIlIIIIIll</b>"
-    error = "something is went wrong\n{error} \ncontact admin @IIlIIIIIll"
-    help = "You can encode and decode QRCode\nUsage: <b>Send any URL or text, this bot can convert to QRCode.\nYou can send a QR code image and decode it.</b>"
+    source = "\nالسورس:https://t.me/Xl444"
+    start = "\n<b>لنبدء العمل الان بواسطة مطوري @IIlIIIIIll</b>"
+    error = "حدث خطاء غير  متوقع\n{error} \nاتصل بمطوري @IIlIIIIIll"
+    help = "يمكنك استخراج باسورد الوايفاي عن طريق كود الباركود\nالاستخدام: <b>Sارسل لي الان صوره كود الباركود.\البوت مجاني لجميع.</b>"
