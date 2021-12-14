@@ -15,7 +15,7 @@ from bot.plugins.display.display_progress import progress
 async def qr_decode(client, message):
     decode_text = await client.send_message(
         chat_id=message.chat.id,
-        text="<b>Processing your request...</b>",
+        text="<b>[جاري التحميل...</b>",
         reply_to_message_id=message.message_id,
     )
     dl_location = str(message.from_user.id)
